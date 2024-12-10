@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'doctorlogin.dart';
-import 'signuppage.dart';
+import 'signuppaged.dart';
 import 'patientlogin.dart'; // Import the PatientLogin page
 
 class Doctorpagee extends StatefulWidget {

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'Loginpage.dart';
-import 'signuppage.dart';
+import 'signuppaged.dart';
+import 'signuppagep.dart';
+import 'doctorpagee.dart';
+import 'doctorlogin.dart';
 import 'patientlogin.dart';
 import 'firstpage.dart'; // Import FirstPage
 

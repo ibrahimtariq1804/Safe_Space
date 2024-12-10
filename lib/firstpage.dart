@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'Loginpage.dart';
 import 'doctorpagee.dart';
 import 'doctorlogin.dart'; // Import HumanLogin page
-import 'petlogin.dart';  // Import PetLogin page
 
 class Firstpage extends StatelessWidget {
   @override
