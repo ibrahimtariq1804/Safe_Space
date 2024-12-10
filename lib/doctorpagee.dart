@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'signuppagep.dart';
+import 'doctorlogin.dart';
+import 'signuppage.dart';
 import 'patientlogin.dart'; // Import the PatientLogin page
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class Doctorpagee extends StatefulWidget {
+  const Doctorpagee({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<Doctorpagee> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPageState extends State<Doctorpagee> {
   final _formKey = GlobalKey<FormState>();
   final TextEditingController _usernameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
@@ -76,12 +77,12 @@ class _LoginPageState extends State<LoginPage> {
                       // Navigate to PatientLogin page when login is successful
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => PatientLogin()),
+                        MaterialPageRoute(builder: (context) => Doctorlogin()),
                       );
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.orangeAccent, 
+                    backgroundColor: Colors.teal, 
                     padding: const EdgeInsets.symmetric(
                         horizontal: 48, vertical: 16),
                   ),
@@ -101,7 +102,7 @@ class _LoginPageState extends State<LoginPage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const SignupPagep()),
+                              builder: (context) => const SignupPage()),
                         );
                       },
                       child: const Text(

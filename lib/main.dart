@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'Loginpage.dart';
-import 'signinpage.dart';
+import 'signuppage.dart';
+import 'patientlogin.dart';
+import 'firstpage.dart'; // Import FirstPage
 
 void main() {
   runApp(MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: const LoginPage(), // Set the initial screen
+      home: Firstpage(), // Set the initial screen to FirstPage
     );
   }
 }
